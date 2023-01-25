@@ -8,10 +8,11 @@ export default function Home() {
   return (
     <>
       <Topbar />
-      
+      <div className="homeContainer">
         <Sidebar />
+        <Feed/>
         
-      
+      </div>
     </>
   );
 }
