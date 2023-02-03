@@ -1,5 +1,5 @@
 import "./post.css";
-import { MoreVert } from "@mui/icons-material";
+import { MoreVert } from "@material-ui/icons";
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { format } from "timeago.js";
@@ -43,7 +43,7 @@ export default function Post({ post }) {
                 src={
                   user.profilePicture
                     ? PF + user.profilePicture
-                    : PF + "person/noAvatar.png"
+                    : PF + "assets/person/noAvatar.png"
                 }
                 alt=""
               />
